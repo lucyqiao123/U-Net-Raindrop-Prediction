@@ -1,3 +1,4 @@
-# 记录Machine-Learning项目
-刚入门还有很多不足之处，欢迎相互交流
+# Record Machine-Learning Projects
+update:1.U-Net-Raindrop Prediction
+
 
