@@ -11,9 +11,9 @@
 本来应该用全部train和test样本跑，但时间不够，就各自随机选取了200个样本，效果好像也还行
 
 *前后10帧降雨可视化
-![image](https://github.com/lucyqiao123/U-Net-Raindrop-Prediction/blob/main/epoch2_prediction.jpg)
-
+![image](https://github.com/lucyqiao123/U-Net-Raindrop-Prediction/blob/main/images/epoch2_prediction.jpg)
+images
 *仅迭代了10个epcoh，大致看走势
-![image](https://github.com/lucyqiao123/U-Net-Raindrop-Prediction/blob/main/visdom_picture.jpg)
+![image](https://github.com/lucyqiao123/U-Net-Raindrop-Prediction/blob/main/images/visdom_picture.jpg)
 
-具体思路详情见detailed_record.txt
+具体思路详情见record/detailed_record.txt
