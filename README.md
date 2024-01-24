@@ -13,5 +13,6 @@
 *仅迭代了10个epcoh，大致看走势
 
 *前后10帧降雨可视化
+![image](https://github.com/lucyqiao123/U-Net-Raindrop-Prediction/blob/main/visdom_picture.jpg)
 
 
