@@ -10,9 +10,10 @@
 目前存在问题：复刻论文提到使用B-MSE，作者内存不够没用上；train、test样本分布不均衡，训练效果由样本均衡性决定，换一批样本test效果就有所变化；存在过拟合问题，还需调参；
 本来应该用全部train和test样本跑，但时间不够，就各自随机选取了200个样本，效果好像也还行
 
-*仅迭代了10个epcoh，大致看走势
-
 *前后10帧降雨可视化
+![image](https://github.com/lucyqiao123/U-Net-Raindrop-Prediction/blob/main/epoch2_prediction.jpg)
+
+*仅迭代了10个epcoh，大致看走势
 ![image](https://github.com/lucyqiao123/U-Net-Raindrop-Prediction/blob/main/visdom_picture.jpg)
 
-
+具体思路详情见detailed_record.txt
