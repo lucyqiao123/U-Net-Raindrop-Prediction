@@ -196,19 +196,19 @@ class MyDataset(Dataset):
         self.vars=vars
         self.mode=mode
         if self.mode=="train":
-            self.sample_start=400 #开始的文件名 选取90%的作为训练样本
-            self.sample_end=400
+            self.sample_start=200 #开始的文件名 选取90%的作为训练样本
+            self.sample_end=9400
         elif self.mode=="test":
-            self.sample_start=200
-            self.sample_end=200
+            self.sample_start=9600
+            self.sample_end=10600
         self.list_idx=[i for i in range(self.sample_start,self.sample_end+1,200)]
 
     def __len__(self):
         if self.mode=="train":
             length=self.sample_end-self.sample_start+200
         else:
-            length = self.sample_end - self.sample_start + 200
-            # length=10740-self.sample_start
+            # length = self.sample_end - self.sample_start + 200
+            length=10740-self.sample_start
         return length
 
     def __getitem__(self, idx):
