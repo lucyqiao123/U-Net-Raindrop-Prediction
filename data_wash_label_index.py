@@ -1,4 +1,4 @@
-#等高线均值压缩
+#等高线取3km
 import os
 import numpy as np
 import pandas as pd
