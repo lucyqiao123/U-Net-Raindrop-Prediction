@@ -1,7 +1,7 @@
 # U-Net Raindrop Prediction
 复刻论文：Improving Nowcasting of Convective Development by Incorporating Polarimetric Radar Variables Into a Deep‐Learning Model.Geophysical Research Letters,48(21), e2021GL095302
 
-数据：论文supporting information/2023年研究生数模大赛F题官网
+数据：论文supporting information/2023年华为杯中国研究生数学建模竞赛F题官网公告
 
 技术文件路径：data_wash_label_index.py--->产出label_index.npy-->var_data_filter_re.py存储样本数据-->U_net.py
 
